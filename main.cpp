@@ -11,7 +11,7 @@ int main()                                                  // creates an interg
     {
         printf("a = %d\n",a);                               // prints a = then the interger a
 
-        //test
+        ThisThread::sleep_for(5s);
     }
     
     printf("final value of a is %d\n", a);                  // prints final value of a is interger a
